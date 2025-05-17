@@ -80,6 +80,7 @@ const styles = StyleSheet.create({
     fontSize: Typography.fontSize['3xl'],
     color: Colors.accent.primary,
     textAlign: 'center',
+    writingDirection: 'rtl',
   },
   card: {
     marginBottom: 16,

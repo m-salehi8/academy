@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.background.secondary,
   },
   header: {
-    flexDirection: 'row-reverse', // RTL support
+    flexDirection: 'row-reverse',
     justifyContent: 'center',
     alignItems: 'center',
     paddingHorizontal: 16,
@@ -179,5 +179,6 @@ const styles = StyleSheet.create({
     fontSize: Typography.fontSize.lg,
     color: Colors.text.tertiary,
     marginTop: 16,
+    writingDirection: 'rtl',
   },
 });

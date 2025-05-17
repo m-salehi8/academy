@@ -159,6 +159,7 @@ const styles = StyleSheet.create({
     fontSize: Typography.fontSize.md,
     color: Colors.text.secondary,
     textAlign: 'center',
+    writingDirection: 'rtl',
   },
   rightContainer: {
     flexDirection: 'row',
@@ -183,6 +184,7 @@ const styles = StyleSheet.create({
     fontSize: Typography.fontSize.sm,
     color: Colors.text.primary,
     textAlign: 'right',
+    writingDirection: 'rtl',
     paddingHorizontal: 8,
   },
   notificationPanel: {
@@ -206,6 +208,7 @@ const styles = StyleSheet.create({
     fontSize: Typography.fontSize.lg,
     color: Colors.text.primary,
     textAlign: 'right',
+    writingDirection: 'rtl',
     marginBottom: 16,
   },
-}); 
+});
